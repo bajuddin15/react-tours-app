@@ -1,0 +1,63 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardImage {
+  height: 280px;
+}
+.card-title {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+.read-more {
+  color: rgb(18, 122, 240);
+  padding: 2px 10px;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.price-btn {
+  padding: 1px 20px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  /* background-color: black;
+  color: white; */
+  font-family: "Lobster", cursive;
+  color: rgb(166, 6, 180);
+  font-size: large;
+}
+.card-name-price {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* flex-direction: column; */
+  margin-bottom: 10px;
+}
+.not-interested-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cross-btn {
+  border: 1px solid rgb(235, 39, 39);
+  border-radius: 10px;
+  outline: none;
+  text-decoration: none;
+  color: white;
+
+  font-size: large;
+  background-color: rgb(255, 25, 25);
+  padding: 3px 20px;
+}
+.cross-btn:hover {
+  background-color: rgb(238, 235, 235);
+}
+
+/* .price-btn:hover {
+  background-color: black;
+  color: white;
+} */
